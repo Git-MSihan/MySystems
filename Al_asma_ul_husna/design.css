@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@100&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: #D9A689;
+    font-family: 'Playfair Display', serif;
+    color: #F2F2F2;
+    overflow: hidden;
+    min-width: 300px;
+    min-height: 800px;
+
+}
+
+h1{
+    position: fixed;
+    text-align: center;
+    box-sizing: border-box;
+    font-weight: 800;
+    font-size: 150%;
+    background-color: #555931;
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.user{
+    position: fixed;
+    top: 60px;
+    width: 60%;
+    background-color: rgb(182, 127, 34);
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.lable{
+    position: absolute;
+    font-size: 150%;
+    text-align: left;
+    top: 15%;
+    margin-left: 10%;
+}
+
+#namesL{
+    margin-bottom:11px ;
+}
+
+#nameS{
+    margin-top: 40px;
+}
+
+#meaningL{
+    margin-top:95px;
+}
+
+#meaningS{
+    margin-top:130px;
+    text-align: center;
+}
+
+.showL{
+    position: absolute;
+    background-color: #868C56;
+    border-bottom: 3px solid black;
+    width: 65%;
+    height: 35px;
+    left: 50px;
+    top: 15%;
+}
+
+button{
+    background-color: #555931;
+    color: #F2F2F2;
+    border-radius: 18px;
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
+    font-size: 30%;
+    font-weight: 600;
+    transition: all 0.8ms linear;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 100%;
+    margin-top: 350px;
+    margin-right: 20px;
+    width: 30%;
+    height: 30px;
+}
+button:hover{
+    border-radius: 0;
+    background-color: #848b41;
+}
+
+.view{
+    position: fixed;
+    box-sizing: border-box;
+    right: 0;
+    top: 60px;
+    /*background-color: #F27B13;*/
+    background-color: #868C56;
+    width: 40%;
+    height: 100vh;
+    padding: 3%;
+    margin: 0;
+    overflow: scroll;
+}
+

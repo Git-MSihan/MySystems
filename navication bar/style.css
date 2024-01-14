@@ -1,0 +1,52 @@
+*{
+    font-family:sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 10%;
+    background-color:  rgb(75, 42, 12);
+}
+
+.logo{
+    cursor: pointer;
+    color: rgb(169, 120, 162);
+    font-weight:400 ;
+    margin-right: auto;
+}
+.nav-link{
+    list-style: none;
+    display: flex;
+}
+
+.nav-link li{
+    padding: 0 20px;
+}
+
+.nav-link li a{
+    text-decoration: none;
+    color: rgb(121, 117, 133);
+    transform: 0.3s;
+}
+
+.nav-link li a:hover{
+    color:aqua ;
+}
+
+button{
+    padding: 9px 25px;
+    background: rgb(102, 63, 114);
+    border: none;
+    color: white;
+    border-radius: 50px;
+    transform: 0.6s;
+}
+
+button:hover{
+    background:  rgb(102, 63, 230);
+}
