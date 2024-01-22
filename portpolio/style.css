@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(251, 253, 253);
+    overflow: hidden;
+}
+.container{
+    /*background-color: rgb(58, 15, 132);*/
+    text-transform: capitalize;
+}
+
+button{
+    width: 150px;
+    font-size: 25px;
+    padding: 10PX;
+    border-radius: 35px;
+    margin-top: 50px;
+    margin-left: 50px;
+    cursor: pointer;
+    border: none;
+    box-shadow: rgb(12, 12, 17) 4px 5px 2px inset;
+}
+
+button:hover{
+    box-shadow: rgb(229, 229, 233) 5px 5px 10px -2px inset;
+    background-color: rgb(8, 8, 7);
+    color: aliceblue;
+}
+
+button:active{
+    background-color: aliceblue;
+    color: black;
+    box-shadow: rgb(192, 72, 84) 0px 0px 20px 0px,
+                gray 0px 0px 30px inset ;
+}
+
+.pic{
+    width: 350px;
+    height: 450px;
+    margin: 40px;
+    margin-left: 100px;
+    border-radius: 50%;
+}
+
+.general{
+    font-size: 60px;
+    width: 550px;
+    text-align: center;
+    position: fixed;
+    right: 3%;
+    bottom: 20%;
+    color: blue;
+    user-select: none;
+}
+
+.general> .item_1, .general> .item_2{
+    margin-bottom: 15px;
+}
+
+.personal{
+    position: fixed;
+    display: grid;
+    grid-template-columns: repeat(2, 120%);
+    bottom: 5%;
+    left: 5%;
+    font-size: 25px;
+    font-style: italic;
+    opacity: 0.6;
+}
+
+.personal> .item_1, .personal > .item_2{
+    margin-bottom: 20px;
+}
+
+.fa-linkedin{
+    position: fixed;
+    left: 595px;
+    top: 70px;
+}
+
+.fa-whatsapp{
+    position: fixed;
+    left: 655px;
+    top: 70px;
+}
+
+.fa-envelope{
+    position: fixed;
+    left: 715px;
+    top: 70px;
+}
+
+.fa-facebook{
+    position: fixed;
+    left: 775px;
+    top: 70px;
+}
+
+.fa-instagram{
+    position: fixed;
+    left: 835px;
+    top: 70px;
+}
+
+.fa{
+    height: 25px;
+    width: 25px;
+    font-size: 25px;
+    color: rgb(208, 173, 104);
+    cursor: pointer;
+    user-select: none;
+    text-decoration: none;
+    border-radius: 50%;
+    border: 3px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.fa:hover{
+    border: 3px solid rgb(177, 28, 28);
+    box-shadow: gray 0px 0px 10px inset;
+    font-size: 30px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+}
+
+.fa:active{
+    border: 3px solid rgb(100, 11, 215);
+    box-shadow: rgb(192, 72, 84) 0px 0px 20px 0px;
+}
+
+
+.brands{
+    height: 30px;
+    width: 30px;
+}
