@@ -1,128 +1,136 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-.container{
-    border: 5px solid rgb(79, 53, 185);
-    box-sizing: border-box;
-    width: 260px;
-    height: 530px;
-    margin: 150px auto;
-    text-align: center;
-    border-radius: 30px;
-    background-color: rgb(6, 4, 4);
-    position: relative;
+body {
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+}
+.container {
+  border: 5px solid rgb(79, 53, 185);
+  box-sizing: border-box;
+  width: 260px;
+  height: 530px;
+  margin: 150px auto;
+  text-align: center;
+  border-radius: 30px;
+  background-color: rgb(6, 4, 4);
+  position: relative;
 }
 
-.fff{
-    border-bottom: 2px solid aliceblue;
-    box-sizing: border-box;
-    height: 45px;
-    background-color:aliceblue;
-    border-radius: 30px 30px 0 0;
+.fff {
+  border-bottom: 2px solid aliceblue;
+  box-sizing: border-box;
+  height: 45px;
+  background-color: aliceblue;
+  border-radius: 24px 24px 0 0;
+  padding-top: 10px;
+  font-size: 20px;
 }
 
-.last{
-    position: absolute;
-    border-bottom: 2px solid aliceblue;
-    box-sizing: border-box;
-    height: 45px;
-    width: 250px;
-    background-color:aliceblue;
-    border-radius: 0 0 30px 30px;
-    bottom: 0;
-    padding: 3.5px 0;
+.last {
+  position: absolute;
+  border-bottom: 2px solid aliceblue;
+  box-sizing: border-box;
+  height: 45px;
+  width: 250px;
+  background-color: aliceblue;
+  border-radius: 0 0 24px 24px;
+  bottom: 0;
+  padding: 3.5px 0;
 }
 
-.circle{
-    box-sizing: border-box;
-    border: 2px solid rgb(53, 53, 53);
-    height: 35px;
-    width: 35px;
-    margin: 0 110px;
-    border-radius: 50%;
-    align-items: center;
-    box-shadow: rgb(114, 115, 145) 0px 0px 0px 2px;
+.circle {
+  box-sizing: border-box;
+  border: 2px solid rgb(53, 53, 53);
+  height: 35px;
+  width: 35px;
+  margin: 0 110px;
+  border-radius: 50%;
+  align-items: center;
+  box-shadow: rgb(114, 115, 145) 0px 0px 0px 2px;
 }
 
-button{
-    border-radius: 50%;
-    height: 55px;
-    width: 55px;
-    font-size: 30px;
-    border: none;
-    color: azure;
-    background-color:  rgb(42, 36, 36);
+button {
+  border-radius: 50%;
+  height: 55px;
+  width: 55px;
+  font-size: 30px;
+  border: none;
+  color: azure;
+  background-color: rgb(42, 36, 36);
+  margin-left: 4px;
 }
 
-
-.outputs{
-    height: 40px;
-    width: 238px;
-    font-size: 40px;
-    text-align: end;
-    padding-inline: 3px;
-    padding-top: 20px;
-    border: none;
-    background-color: black;
-    color: azure;
+#outputs {
+  height: 40px;
+  width: 238px;
+  font-size: 35px;
+  text-align: end;
+  padding-inline: 3px;
+  padding-top: 20px;
+  border: none;
+  background-color: black;
+  color: azure;
 }
 
-#just{
-    height: 30px;
-    width: 245px;
-    margin-top: 15px;
-    font-size: 15px;
-    text-align: right;
-    padding-inline: 3px;
-    border: none;
-    background-color: black;
+#just {
+  height: 30px;
+  width: 242px;
+  margin-top: 15px;
+  font-size: 15px;
+  text-align: right;
+  padding-inline: 3px;
+  padding-right: 5px;
+  border: none;
+  background-color: black;
+  color: azure;
 }
-
 
 input[type="text"] {
   pointer-events: none;
 }
 
-.inputsArea{
-    padding: 20px;
-    display: grid;
-    justify-content: space-around;
-    justify-content: space-evenly;
-    grid-template-columns:repeat(4, 60px);
-    grid-row-gap: 3px;
+.inputsArea {
+  padding: 20px;
+  display: grid;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  grid-template-columns: repeat(4, 60px);
+  grid-row-gap: 3px;
 }
 
-.zero{
-    width: 115px;
-    grid-column: span 2;
-    border-radius: 30px;
-    text-align: left;
-    padding-left: 20px;
+#zero {
+  width: 115px;
+  grid-column: span 2;
+  border-radius: 30px;
+  text-align: left;
+  padding-left: 20px;
 }
 
-#orange{
-    background-color: orange;
+#orange {
+  background-color: orange;
 }
 
-.equal{
-    background-color: orange;
+#equal {
+  background-color: orange;
 }
 
-.gray{
-    background-color: grey;
-    font-size: 25px;
+.gray {
+  background-color: grey;
+  font-size: 25px;
 }
 
-.gray:active{
-    font-size: 30px;
+.gray:active {
+  font-size: 30px;
 }
 
-button:hover{
-    box-shadow: rgb(114, 115, 145) 4px 5px 10px -5px inset;
+button:hover {
+  box-shadow: rgb(114, 115, 145) 4px 5px 10px -5px inset;
 }
 
-button:active{
-    font-size: 35px;
+button:active {
+  font-size: 35px;
 }

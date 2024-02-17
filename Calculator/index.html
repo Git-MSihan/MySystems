@@ -1,41 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
-    <link rel="stylesheet" href="styleSheet.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styleSheet.css" />
+  </head>
+  <body>
     <div class="container">
-        <div class="fff">.....</div>
-        <input type="text" id="just">
-        <input type="text" placeholder="0" class="outputs">
-        <div class="inputsArea">
-            <button class="gray clear"> AC </button>
-            <button class="gray neg" value=" +/-"> +/- </button>
-            <button class="gray persent" value="%"> % </button>
-            <button id="orange" value="÷"> ÷ </button>
-            <button class="numbers" value="7"> 7 </button>
-            <button class="numbers" value="8"> 8 </button>
-            <button class="numbers" value="9"> 9 </button>
-            <button id="orange" value="×"> × </button>
-            <button class="numbers" value="4"> 4 </button>
-            <button class="numbers" value="5"> 5 </button>
-            <button class="numbers" value="6"> 6 </button>
-            <button id="orange" value="-"> - </button>
-            <button class="numbers" value="1"> 1 </button>
-            <button class="numbers" value="2"> 2 </button>
-            <button class="numbers" value="3"> 3 </button>
-            <button id="orange" value="+"> + </button>
-            <button class="zero" value="0"> 0 </button>
-            <button class="dot" value="."> . </button>
-            <button class="equal"> = </button>
-        </div>
-        <div class="last">
-            <div class="circle"></div>
-        </div>
+      <div class="fff">Mohamed Sihan</div>
+      <input type="text" id="just" />
+      <input type="text" placeholder="0" id="outputs" />
+      <div class="inputsArea">
+        <button class="gray" onclick="Clear1()">AC</button>
+        <button class="gray" onclick="neg('-')">+/-</button>
+        <button class="gray" onclick="percen('%')">%</button>
+        <button id="orange" onclick="di('÷')">÷</button>
+        <button onclick="dis(7)">7</button>
+        <button onclick="dis(8)">8</button>
+        <button onclick="dis(9)">9</button>
+        <button id="orange" onclick="di('×')">×</button>
+        <button onclick="dis(5)">5</button>
+        <button onclick="dis(4)">4</button>
+        <button onclick="dis(6)">6</button>
+        <button id="orange" onclick="di('-')">-</button>
+        <button onclick="dis(1)">1</button>
+        <button onclick="dis(2)">2</button>
+        <button onclick="dis(3)">3</button>
+        <button id="orange" onclick="di('+')">+</button>
+        <button id="zero" onclick="dis(0)">0</button>
+        <button class="dot" onclick="dot('.')">.</button>
+        <button id="equal" onclick="equal()">=</button>
+      </div>
+      <div class="last">
+        <div class="circle"></div>
+      </div>
     </div>
-    <script src="script.js"></script>
-</body>
+    <script src="script2.js"></script>
+  </body>
 </html>
